@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <test-dialog/>
   </div>
 </template>
 
 <script>
+import TestDialog from './components/TestDialog.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    TestDialog
+  }
 }
 </script>
 
