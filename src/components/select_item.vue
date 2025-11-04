@@ -14,7 +14,7 @@
 <script>
 import Vue from 'vue'
 export default {
-  name: 'select',
+  name: 'OptItem',
   data () {
     return {
       msg: 'Welcome to select',

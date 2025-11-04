@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import CustomDialog from '@/components/CustomDialog.vue'
 
 Vue.use(ElementUI)
+Vue.component('CustomDialog', CustomDialog)
 
 Vue.config.productionTip = false
 
